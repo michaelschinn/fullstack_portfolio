@@ -2,7 +2,7 @@
 
 This is where I will be posting all of my daily progress and developments while I am attending the **Awesome Inc Bootcamp**.
 ---
----
+
 # _**Git Over Here!**_
 *8/25/2021*
 
