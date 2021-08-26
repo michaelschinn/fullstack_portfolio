@@ -4,9 +4,9 @@ By: Michael Chinn
 ---
 ## This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Bootcamp**.
 
----
 # _**Git Over Here!**_
 #### My First Week at Awesome Inc.
+---
 *8/26/2021*
 
 ---
