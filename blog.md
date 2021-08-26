@@ -2,13 +2,11 @@
 
 This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Bootcamp**.
 ---
----
 # _**Git Over Here!**_
 *8/26/2021*
 
 ---
 ![Git Over Here](img/scorp-octodex-blog-02.jpg)
----
 ---
 Today was interesting to say the least. I got a nice refresher on using GitHub! I've used it in the past when I was a front-end web developer. Even so, I've learned that it's suprising all of the things you can forget in 6 years. For example...
 
