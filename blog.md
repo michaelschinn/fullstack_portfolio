@@ -11,8 +11,9 @@ By: Michael Chinn
 
 ---
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
+
 ---
-This week I began the **Awesome Inc Coding Bootcamp** and so far I'm very impressed! I learned about an online IDE called CodeAnywhere, which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extesive refresher on using GitHub!
+This week I began the [**Awesome Inc Coding Bootcamp**](https://www.awesomeinc.org/bootcamp) and so far I'm very impressed! I learned about an online IDE called [CodeAnywhere](https://codeanywhere.com/), which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extesive refresher on using [GitHub](https://github.com/)!
 
 I've used GitHub in the past when I was a front-end web developer, but never as in-depth as they are teaching me it can be utilized. As well as, I'm learning that the amount of the things you can forget in 6 years is shocking.
 
