@@ -10,9 +10,9 @@ By: Michael Chinn
 *8/26/2021*
 
 ---
-![Git Over Here](img/scorp-octodex-blog-02.jpg)
+<img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
 ---
-This week I began the <span style=' color:#cc0000'>**Awesome Inc Coding Bootcamp**</span> and so far I'm very impressed! I learned about an online IDE called CodeAnywhere, which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extesive refresher on using GitHub!
+This week I began the **Awesome Inc Coding Bootcamp** and so far I'm very impressed! I learned about an online IDE called CodeAnywhere, which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extesive refresher on using GitHub!
 
 I've used GitHub in the past when I was a front-end web developer, but never as in-depth as they are teaching me it can be utilized. As well as, I'm learning that the amount of the things you can forget in 6 years is shocking.
 
