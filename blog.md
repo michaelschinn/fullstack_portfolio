@@ -23,7 +23,7 @@ The following are some examples of all that we have gone over in regards to GitH
 - Add files to be commited.
 - Commit your changes.
 - Create an Empty Repository on the GitHub Server
-- Push your changes to the GitHub Server.
+- Push your new content up to the GitHub Server.
 - Execute a pull request on your changes.
 - Create a "Dev" branch
 - Merge your changes into the main branch.
@@ -62,14 +62,52 @@ Okay, now that we have added our changes to the index it is time to record/commi
 It's used to "Record changes to the repository"[⁴](https://git-scm.com/docs/git-commit). You can see that the `git commit` command is followed by the option `-m "message"`, this is used to enter a description of the changes that are being recorded to the repository.
 
 ![Git commit output.](img/git-commit.jpg)<p align='center'>*Git commit output.*</p><hr><p align='center'>*⁴ From: [https://git-scm.com/docs/git-commit](https://git-scm.com/docs/git-commit)*</p>
-
 <hr>
+<br>
 
 ## Create an Empty Repository on the GitHub Server
-## Push your changes to the GitHub Server.
+When you first login to GitHub you will be on the "Overview" tab. From here you will want to navigate to the "Repository" tab.
+
+![Overview tab.](img/gitHub-overview.jpg)<p align='center'>*Overview tab.*</p>
+<br>
+From the Repository page, click on the "New" button.
+
+![Repository tab.](img/gitHub-repository.jpg)<p align='center'>*Repository tab.*</p>
+<br>
+Here you will give your new repository a name and select any additional options for it.
+
+*(Note: Name is the only required field for creating a new repository.)*
+
+With the name field filled out, you can now click the "Create repository" button.
+
+![New repository page.](img/gitHub-newRepository.jpg)<p align='center'>*New repository page.*</p>
+
+And thats it! GitHub will automatically redirect you into your new repo. You can start pushing and pulling content from your development environment to your new repository!
+
+Now we will go back to your CLI so that we can start wrapping up the setup for your new repository.
+<hr>
+<br>
+
+## Setup your target branch
+Next we need to move Git's attention to the name of the default branch we will be pushing our inital content up to. This is where we use the command...
+
+`git branch -M main`
+
+What the `git branch` command does is "List, create, or delete branches"[*⁵*](https://git-scm.com/docs/git-branch). the option `-M` is a combination of two options:
+- `--move` : "Move/rename a branch and the corresponding reflog."
+- `--force` : "Reset 'branchname' to 'startpoint', even if 'branchname' exists already."
+
+So in essence, this creates a new branch in Git and sets it's name to be `main`, which is the name of our default branch on GitHub! <hr><p align='center'>⁵ From: [https://git-scm.com/docs/git-branch](https://git-scm.com/docs/git-branch)</p>
+<hr>
+<br>
+
+## Assign your origin URL
+`git remote add origin URL`
+
+## Push your new content up to the GitHub Server.
 `git push -u origin main`
-## Execute a pull request on your changes.
-## Creating a Dev branch
+## Execute a pull request on your content.
+## Create a Dev branch
 ## Merge your changes into the main branch.
 
 What's really **Awesome** is that in the past, I never learned to use the GitHub website beyond cloning repos and viewing files. The majority of my experience with it was through a CLI, so it was a real treat to learn the ins and outs of it.
