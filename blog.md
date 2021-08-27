@@ -39,7 +39,7 @@ It's the simplest of things that make all the difference. This simple little com
 
 `git init`
 
-...is where it all begins. With it you can "Create an empty Git repository or reinitialize an existing one."[*¹*](https://git-scm.com/docs/git-init) In short, it makes it possible to create branches, commit changes, push said changes up to the server, and so much more! None of this would be able to be done without first initializing a local repository. <p align='center'>*¹ From: [https://git-scm.com/docs/git-init](https://git-scm.com/docs/git-init)*</p>
+...is where it all begins. With it you can "Create an empty Git repository or reinitialize an existing one."[*¹*](https://git-scm.com/docs/git-init) In short, it makes it possible to create branches, commit changes, push said changes up to the server, and so much more! None of this would be able to be done without first initializing a local repository. <hr><p align='center'>*¹ From: [https://git-scm.com/docs/git-init](https://git-scm.com/docs/git-init)*</p><hr>
 <br>
 ## Checking the status of your local repo.
 It is important to be able to see the difference between what you have on your local repo and your repo on Github. To do this you will use...
@@ -48,7 +48,7 @@ It is important to be able to see the difference between what you have on your l
 
 This is a very useful command. What it does is "Show the working tree status."[²](https://git-scm.com/docs/git-status) It allows you to see what is committed, what is yet to be committed and what needs to be added to be included in the next commit.
 
-![Git status output.](img/git-status.jpg)<p align='center'>*Git status output.*</p><p align='center'>*² | From: [https://git-scm.com/docs/git-status](https://git-scm.com/docs/git-status)*</p>
+![Git status output.](img/git-status.jpg)<p align='center'>*Git status output.*</p><hr><p align='center'>*² | From: [https://git-scm.com/docs/git-status](https://git-scm.com/docs/git-status)*</p><hr>
 <br>
 ## Add files to be commited.
 `git add -A`
