@@ -4,7 +4,7 @@ By: Michael Chinn
 ---
 ## This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
 
-# *8/26/2021* | _**Git Over Here!**_ | My First Week at Awesome Inc.
+# *8/26/2021* | **Git Over Here!** | *My First Week at Awesome Inc.*
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
 
 ---
@@ -55,7 +55,14 @@ This command allows us to "Add file contents to the index"[*³*](https://git-scm
 <br>
 
 ## Commit your changes.
-`git commit -m "[message]"`
+Okay, now that we have added our changes to the index it is time to record/commit them to the repository. This is done using the command...
+
+`git commit -m "message"`
+
+It's used to "Record changes to the repository"[⁴](https://git-scm.com/docs/git-commit). You can see that the `git commit` command is followed by the option `-m "message"`, this is used to enter a description of the changes that are being recorded to the repository.<hr><p align='center'>*⁴ From: [https://git-scm.com/docs/git-commit](https://git-scm.com/docs/git-commit)*</p>
+
+<hr>
+
 ## Create an Empty Repository on the GitHub Server
 ## Push your changes to the GitHub Server.
 `git push -u origin main`
