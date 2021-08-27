@@ -4,9 +4,7 @@ By: Michael Chinn
 ---
 ## This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
 
-<hr>
-
-# _**Git Over Here!**_ | My First Week at Awesome Inc. | *8/26/2021*
+# *8/26/2021* | _**Git Over Here!**_ | My First Week at Awesome Inc.
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
 
 ---
