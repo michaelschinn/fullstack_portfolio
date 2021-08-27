@@ -59,7 +59,9 @@ Okay, now that we have added our changes to the index it is time to record/commi
 
 `git commit -m "message"`
 
-It's used to "Record changes to the repository"[⁴](https://git-scm.com/docs/git-commit). You can see that the `git commit` command is followed by the option `-m "message"`, this is used to enter a description of the changes that are being recorded to the repository.<hr><p align='center'>*⁴ From: [https://git-scm.com/docs/git-commit](https://git-scm.com/docs/git-commit)*</p>
+It's used to "Record changes to the repository"[⁴](https://git-scm.com/docs/git-commit). You can see that the `git commit` command is followed by the option `-m "message"`, this is used to enter a description of the changes that are being recorded to the repository.
+
+![Git commit output.](img/git-commit.jpg)<p align='center'>*Git commit output.*</p><hr><p align='center'>*⁴ From: [https://git-scm.com/docs/git-commit](https://git-scm.com/docs/git-commit)*</p>
 
 <hr>
 
