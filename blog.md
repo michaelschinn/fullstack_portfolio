@@ -13,7 +13,7 @@ By: Michael Chinn
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
 
 ---
-This week I began the [**Awesome Inc Coding Bootcamp**](https://www.awesomeinc.org/bootcamp) and so far I'm very impressed! I learned about an online IDE called [CodeAnywhere](https://codeanywhere.com/), which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extesive refresher on using [GitHub](https://github.com/)!
+This week I began the [**Awesome Inc Coding Bootcamp**](https://www.awesomeinc.org/bootcamp) and so far I'm very impressed! I learned about an online IDE called [CodeAnywhere](https://codeanywhere.com/), which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extensive refresher on using [GitHub](https://github.com/)!
 
 I've used GitHub in the past when I was a front-end web developer, but never as in-depth as they are teaching me it can be utilized. As well as, I'm learning that the amount of the things you can forget in 6 years is shocking.
 
@@ -35,7 +35,7 @@ The following are some examples of all that we have gone over in regards to GitH
 <br><br>
 ## Initialize Your Local Repository
 
-It's the simplest of things that make all the difference. This simple little command...
+It's the simplest of things that make all the difference. This eight character command...
 
 `git init`
 
@@ -46,12 +46,19 @@ It is important to be able to see the difference between what you have on your l
 
 `git status`
 
-This is a very useful command. What it does is "Show the working tree status."[²](https://git-scm.com/docs/git-status) It allows you to see what is committed, what is yet to be committed and what needs to be added to be included in the next commit.
+This is a very useful command. What it does is "Show the working tree status."[²](https://git-scm.com/docs/git-status) It allows you to see what is committed, what is yet to be committed and what needs to be added to be included in your next commit.
 
-![Git status output.](img/git-status.jpg)<p align='center'>*Git status output.*</p><hr><p align='center'>*² | From: [https://git-scm.com/docs/git-status](https://git-scm.com/docs/git-status)*</p><hr>
+![Git status output.](img/git-status.jpg)<p align='center'>*Git status output.*</p><hr><p align='center'>*² From: [https://git-scm.com/docs/git-status](https://git-scm.com/docs/git-status)*</p><hr>
 <br>
-## Add files to be commited.
+## Add files to be committed.
+Now, we will look into how to update the index with the changes we've made to the working tree. This is done with the command...
+
 `git add -A`
+
+This command allows us to "Add file contents to the index"[*³*](https://git-scm.com/docs/git-add). Without it Git would not know that we wanted to include the changes we've made into the next commit. The option `-A` lets Git know that we want it to look at all of the files that are indexed and add the ones that differ from the working tree *(eg. The files we've changed)*.<hr><p align='center'>*³ From: [https://git-scm.com/docs/git-add](https://git-scm.com/docs/git-add)*</p>
+<hr>
+<br>
+
 ## Commit your changes.
 `git commit -m "[message]"`
 ## Create an Empty Repository on the GitHub Server
