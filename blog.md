@@ -14,20 +14,24 @@ I've used GitHub in the past when I was a front-end web developer, but never as 
 
 ![6 years is a long time!](https://images.theconversation.com/files/286868/original/file-20190805-117861-1tte4c9.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C6240%2C3120&q=45&auto=format&w=1356&h=668&fit=crop)<p align='center'>*6 years is a long time!*</p>
 
-The following are some examples of all that we have gone over in regards to GitHub.
+The focus of this article will be to detail out what I have learned in regards to Git and GitHub.
 
 ## The Process of Utilizing GitHub
 
-- Initialize your local repository.
-- Check the status of your local repo.
-- Add files to be commited.
-- Commit your changes.
-- Create an Empty Repository on the GitHub Server
-- Push your new content up to the GitHub Server.
-- Execute a pull request on your changes.
-- Create a "Dev" branch
+- Initialize Your Local Repository.
+- Check the Status of Your Local Repository.
+- Add Files to be Committed.
+- Commit Your Changes.
+- Create an Empty Repository on the GitHub Server.
+- Setup Your Branch.
+- Assign Your Origin URL
+- Push Your New Content Up to The GitHub Server.
+- Execute a Pull Request on Your Content.
+- Create a "Dev" Branch
+- Make Changes, Add, Commit, Push, Wash Rinse and Repeat.
 - Merge your changes into the main branch.
 <br><br>
+
 ## Initialize Your Local Repository
 
 It's the simplest of things that make all the difference. This eight character command...
@@ -36,7 +40,8 @@ It's the simplest of things that make all the difference. This eight character c
 
 ...is where it all begins. With it you can "Create an empty Git repository or reinitialize an existing one." [*¹*](https://git-scm.com/docs/git-init) In short, it makes it possible to create branches, commit changes, push said changes up to the server, and so much more! None of this would be able to be done without first initializing a local repository. <hr><p align='center'>*¹ From: [https://git-scm.com/docs/git-init](https://git-scm.com/docs/git-init)*</p><hr>
 <br>
-## Checking the status of your local repo.
+
+## Check The Status of Your Local Repository.
 It is important to be able to see the difference between what you have on your local repo and your repo on Github. To do this you will use...
 
 `git status`
@@ -45,7 +50,8 @@ This is a very useful command. What it does is "Show the working tree status." [
 
 ![Git status output.](img/git-status.jpg)<p align='center'>*Git status output.*</p><hr><p align='center'>*² From: [https://git-scm.com/docs/git-status](https://git-scm.com/docs/git-status)*</p><hr>
 <br>
-## Add files to be committed.
+
+## Add Files to be Committed.
 Now, we will look into how to update the index with the changes we've made to the working tree. This is done with the command...
 
 `git add -A`
@@ -54,7 +60,7 @@ This command allows us to "Add file contents to the index" [*³*](https://git-sc
 <hr>
 <br>
 
-## Commit your changes.
+## Commit Your Changes.
 Okay, now that we have added our changes to the index it is time to record/commit them to the repository. This is done using the command...
 
 `git commit -m "message"`
@@ -65,7 +71,7 @@ It's used to "Record changes to the repository" [⁴](https://git-scm.com/docs/g
 <hr>
 <br>
 
-## Create an Empty Repository on the GitHub Server
+## Create an Empty Repository on The GitHub Server
 When you first login to GitHub you will be on the "Overview" tab. From here you will want to navigate to the "Repository" tab.
 
 ![Overview tab.](img/gitHub-overview.jpg)<p align='center'>*Overview tab.*</p>
@@ -88,8 +94,8 @@ Now we will go back to your CLI so that we can start wrapping up the setup for y
 <hr>
 <br>
 
-## Setup your target branch
-Next we need to move Git's attention to the name of the default branch we will be pushing our inital content up to. This is where we use the command...
+## Setup Your Branch
+Next we need to set the active branch that Git will use to the name of the branch we will be pushing our inital content up to. This is where we use the command...
 
 `git branch -M main`
 
@@ -101,7 +107,7 @@ So in essence, this will create a new branch in our development environment and 
 <hr>
 <br>
 
-## Assign your origin URL
+## Assign Your Origin URL
 Next we need to setup which repository to track at a remote location. Specifically we want to track our new repository on GitHub. To do this we will use the command...
 
 `git remote add origin URL`
@@ -113,7 +119,7 @@ We can easily obtain the URL by going to the "Code" tab for our repo on GitHub. 
 ![Copy repository URL](img/gitHub-repoUrl.jpg)<p align='center'>*Copy repository URL*</p><hr><p align='center'>*⁶ From: [https://git-scm.com/docs/git-remote](https://git-scm.com/docs/git-remote)*</p>
 <hr>
 
-## Push your new content up to the GitHub Server.
+## Push Your New Content Up to The GitHub Server.
 You are finally ready to populate your GitHub repo with content from your development evironment! To do this all you need to do is execute the command...
 
 `git push -u origin main`
@@ -127,9 +133,11 @@ Your CLI will prompt you for your GitHub username and password. Once entered you
 You can set up a SSH Key to get around having to enter your credentials in everytime you make a push. [This great video](https://www.loom.com/share/5bb573ac904640c99934b40c9961d83d) from **Awesome Inc**'s Justin Hall demonstrates how to achieve this.<hr><p align='center'>⁷ From: [https://git-scm.com/docs/git-push](https://git-scm.com/docs/git-push)</p>
 <hr>
 
-## Execute a pull request on your content.
-## Create a Dev branch
-## Merge your changes into the main branch.
+## Execute a Pull Request on Your Content.
+ Now that we have pushed our content up to GitHub, we can create a pull request. With the pull request we can "Fetch from and integrate with another repository or a local branch" [*⁸*](https://git-scm.com/docs/git-pull)
+## Create a Dev Branch
+## Make Changes, Add, Commit, Push, Wash Rinse and Repeat.
+## Merge Your Changes Into the Main Branch.
 
 What's really **Awesome** is that in the past, I never learned to use the GitHub website beyond cloning repos and viewing files. The majority of my experience with it was through a CLI, so it was a real treat to learn the ins and outs of it.
 
