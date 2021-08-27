@@ -93,16 +93,25 @@ Next we need to move Git's attention to the name of the default branch we will b
 
 `git branch -M main`
 
-What the `git branch` command does is "List, create, or delete branches"[*⁵*](https://git-scm.com/docs/git-branch). the option `-M` is a combination of two options:
-- `--move` : "Move/rename a branch and the corresponding reflog."
-- `--force` : "Reset 'branchname' to 'startpoint', even if 'branchname' exists already."
+What the `git branch` command does is "List, create, or delete branches" [*⁵a*](https://git-scm.com/docs/git-branch). the option `-M` [*⁵b*](https://git-scm.com/docs/git-branch/#Documentation/git-branch.txt--M) is a combination of two options:
+- `--move` : "Move/rename a branch and the corresponding reflog." [*⁵c*](https://git-scm.com/docs/git-branch/#Documentation/git-branch.txt--move)
+- `--force` : "Reset 'branchname' to 'startpoint', even if 'branchname' exists already." [*⁵d*](https://git-scm.com/docs/git-branch/#Documentation/git-branch.txt--force)
 
-So in essence, this creates a new branch in Git and sets it's name to be `main`, which is the name of our default branch on GitHub! <hr><p align='center'>⁵ From: [https://git-scm.com/docs/git-branch](https://git-scm.com/docs/git-branch)</p>
+So in essence, this will create a new branch in our development environment and sets it's name to be `main`. <hr><p align='center'>*⁵ From: [https://git-scm.com/docs/git-branch](https://git-scm.com/docs/git-branch)*</p>
 <hr>
 <br>
 
 ## Assign your origin URL
+Next we need to setup which repository to track at a remote location. Specifically we want to track our new repository on GitHub. To do this we will use the command...
+
 `git remote add origin URL`
+
+With this command we can "Manage set of tracked repositories" [*⁶*](https://git-scm.com/docs/git-remote). The `add` command will "Add a remote named 'name' for the repository at 'url'." In this case our 'name' will be `origin`, and our remote repository will be the URL to our repo on GitHub!.
+
+We can easily obtain the URL by going to the "Code" tab for our repo on GitHub. Then we simple click on the green "Code" button and when the context menu drops down, we click the copy to clipboard button located next to the input field with the URL in it.
+
+![Copy repository URL](img/gitHub-repoUrl.jpg)<p align='center'>*Copy repository URL*</p><hr><p align='center'>*⁶ From: [https://git-scm.com/docs/git-remote](https://git-scm.com/docs/git-remote)*</p>
+<hr>
 
 ## Push your new content up to the GitHub Server.
 `git push -u origin main`
