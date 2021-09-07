@@ -9,12 +9,12 @@ By: Michael Chinn
 </summary>
 </details>
 <details>
-<table>
-<tr>
-<summary><td>Week 1</td><td><i>8/26/2021</i></td><td><b>Git Over Here!</b></td><td><i>My First Week at Awesome Inc.</i></td>
-</summary>
+<summary>
+<table style="display:inline-block; vertical-align:middle;">
+<tr><td>Week 1</td><td><i>8/26/2021</i></td><td><b>Git Over Here!</b></td><td><i>My First Week at Awesome Inc.</i></td>
 </tr>
 </table>
+</summary>
 
 <br>
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
