@@ -3,13 +3,17 @@ By: Michael Chinn
 
 ---
 ### This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
-
-<detais>
-<summary>
-</summary>
+<hr>
+<details>
+<summary>Week 2&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/3/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>The path less traveled.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>The struggle is good. (personal)</i></summary>
+<br>
+<img alt='The Path Less Traveled' src='./img/path-blog.jpg' width='100%'>
+<hr>
+Lorem Ipsum
 </details>
-
-<details><summary>Week 1&nbsp;&nbsp;|&nbsp;&nbsp;<i>8/26/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Git Over Here!</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>My First Week at Awesome Inc. (technical)</i></summary>
+<hr>
+<details>
+<summary>Week 1&nbsp;&nbsp;|&nbsp;&nbsp;<i>8/26/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Git Over Here!</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>My First Week at Awesome Inc. (technical)</i></summary>
 <br>
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
 <hr>
@@ -214,3 +218,4 @@ What's really **Awesome** is that in the past, I never learned to use the GitHub
 
 I thank God that I have access to all of the knowledge and experience of the instructors. I can tell that the Bootcamp is going to be a real game changer for me. :)
 </details>
+<hr>
