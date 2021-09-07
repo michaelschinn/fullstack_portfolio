@@ -4,12 +4,16 @@ By: Michael Chinn
 ---
 ### This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
 
-| *8/26/2021* | **Git Over Here!** | *My First Week at Awesome Inc.* |
-|---|---|---|
+
+<details>
+<summary>
+| Week 1 | *8/26/2021* | **Git Over Here!** | *My First Week at Awesome Inc.* |
+|---|---|---|---|
+</summary>
 <br>
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
 
----
+<hr>
 This week I began the [**Awesome Inc Coding Bootcamp**](https://www.awesomeinc.org/bootcamp) and so far I'm very impressed! I learned about an online IDE called [CodeAnywhere](https://codeanywhere.com/), which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extensive refresher on using [GitHub](https://github.com/)!
 
 I've used GitHub in the past when I was a front-end web developer, but never as in-depth as they are teaching me it can be utilized. As well as, I'm learning that the amount of things you can forget in 6 years is shocking.
@@ -199,16 +203,15 @@ Enter your username and password and that's it! You will just repeat this proces
 Next we shall dive into the process of taking the work performed in your dev branch and getting it to the main branch.
 
 ## Execute a Pull Request on Your Content.
- Now that we have pushed our content up to GitHub, we can create a pull request. With the pull request we can "Fetch from and integrate with another repository or a local branch" [*¹⁰*](https://git-scm.com/docs/git-pull). In other words you will pull the content from your dev branch to your main branch. This is done from the GitHub website.
+Now that we have pushed our content up to GitHub, we can create a pull request. With the pull request we can "Fetch from and integrate with another repository or a local branch" [*¹⁰*](https://git-scm.com/docs/git-pull). In other words you will pull the content from your dev branch to your main branch. This is done from the GitHub website.
 
- From here we can click on the compare an pull request button.
+From here we can click on the compare an pull request button.
 
- ![GitHub pull request](img/gitHub-pull.jpg)<p align="center">*GitHub pull request.*</p>
+![GitHub pull request](img/gitHub-pull.jpg)<p align="center">*GitHub pull request.*</p>
 
 ## Merge Your Changes Into the Main Branch.
 
 What's really **Awesome** is that in the past, I never learned to use the GitHub website beyond cloning repos and viewing files. The majority of my experience with it was through a CLI, so it was a real treat to learn the ins and outs of it.
 
 I thank God that I have access to all of the knowledge and experience of the instructors. I can tell that the Bootcamp is going to be a real game changer for me. :)
-
----
+</details>
