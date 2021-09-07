@@ -8,17 +8,12 @@ By: Michael Chinn
 <summary>
 </summary>
 </details>
-<details>
-<summary>
-<table style="display:inline-block; vertical-align:middle;">
-<tr><td>Week 1</td><td><i>8/26/2021</i></td><td><b>Git Over Here!</b></td><td><i>My First Week at Awesome Inc.</i></td>
-</tr>
-</table>
-</summary>
 
+<details>
+<summary>Week 1&nbsp;&nbsp;|&nbsp;&nbsp;<i>8/26/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Git Over Here!</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>My First Week at Awesome Inc. (technical)</i>
+</summary>
 <br>
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
-
 <hr>
 This week I began the [**Awesome Inc Coding Bootcamp**](https://www.awesomeinc.org/bootcamp) and so far I'm very impressed! I learned about an online IDE called [CodeAnywhere](https://codeanywhere.com/), which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extensive refresher on using [GitHub](https://github.com/)!
 
