@@ -9,7 +9,21 @@ By: Michael Chinn
 <br>
 <img alt='The Path Less Traveled' src='./img/path-blog.jpg' width='100%'>
 <hr>
-Lorem Ipsum
+
+## What is something you wish you could do but currently do not have the coding skills to accomplish?
+
+I **love** retro gaming! From the Atari 2600 to the Sony Playstation 2, I love it all. One thing that I wish that I could do is take a program like [Retro-Arch](https://www.retroarch.com/) and create an Html front-end for it. I have a sufficient amount skill in Photoshop, HTML5 and CSS3 to do it. Provided I have the time I could create some very nice transitions and tranformations to make it really "pop". The thing that stops me from putting in all of the front-end work is the back-end. 
+
+I would firstly need to have Retro-Arch installed on a server. Then it would need to be configured to that servers specifications. Next I would need to launch an instance of it for the user and stream the video output of the program to said user. Then I would need to receive streamed controller input from the user and feed it to their instance of the program. Last I would need to save the users progress to the server so they could continue where they left off the next time they instantiate an instance of the program. I don't know how to do any of that... but I would love to learn how.
+
+## What are you struggling with?
+
+Currently I am working on a stretch goal in which I take a markdown file and convert it to HTML using regular expressions. The issue I am currently having is wrapping all of the paragrapgs in `<p>` tags. At the moment it is wrapping everything in `<p>` tags. Admittantly I haven't had much time to address this problem as I have been doing my Sprint work and dealing with life. I am confident that this is just a challenge and not a blocker but if it turns into a blocker I will post a help request in our slack channel.
+
+## How do you solve a problem? What methods do you use to help yourself get unstuck?
+
+Firstly I will consult the instruction for the given task. Then if no resolution is found I will consult the documentation for the function/method/command that I am struggling with. If it is a logic problem I will spend some time thinking about the logic of what I am doing and try to address any logical fallacies that I may be commiting. If that yields nothing I will type a direct question into google and consult sites like [stackoverflow](https://stackoverflow.com/) and [reddit](https://www.reddit.com/). Lastly I will "phone-a-friend" and seek out someone with more expierience to learn what I can from them to resolve my issue.
+
 </details>
 <hr>
 <details>
