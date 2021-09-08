@@ -12,7 +12,9 @@ By: Michael Chinn
 
 ## What is something you wish you could do but currently do not have the coding skills to accomplish?
 
-I **love** retro gaming! From the Atari 2600 to the Sony Playstation 2, I love it all. One thing that I wish that I could do is take a program like [Retro-Arch](https://www.retroarch.com/) and create an Html front-end for it. I have a sufficient amount skill in Photoshop, HTML5 and CSS3 to do it. Provided I have the time I could create some very nice transitions and tranformations to make it really "pop". The thing that stops me from putting in all of the front-end work is the back-end. 
+I **love** retro gaming! From the Atari 2600 to the Sony Playstation 2, I love it all. One thing that I wish that I could do is take a program like [RetroArch](https://www.retroarch.com/) and create an Html front-end for it. I have a sufficient amount skill in Photoshop, HTML5 and CSS3 to do it. Provided I have the time I could create some very nice transitions and tranformations to make it really "pop". The thing that stops me from putting in all of the front-end work is the back-end. 
+
+<img alt="RetroArch" src="https://www.retroarch.com/images/bg.png" width=100%>
 
 I would firstly need to have Retro-Arch installed on a server. Then it would need to be configured to that servers specifications. Next I would need to launch an instance of it for the user and stream the video output of the program to said user. Then I would need to receive streamed controller input from the user and feed it to their instance of the program. Last I would need to save the users progress to the server so they could continue where they left off the next time they instantiate an instance of the program. I don't know how to do any of that... but I would love to learn how.
 
