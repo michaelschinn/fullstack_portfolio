@@ -3,6 +3,22 @@ By: Michael Chinn
 
 ---
 ### This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
+<details>
+<summary>Week 3&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/16/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Don't Overthink Things.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>Keep it simple stupid. (personal)</i></summary>
+
+## What do we want to keep doing?
+I want to keep stiving to learn new things and implement them into my toolkit. I love that through these projects I am learning how to do a very wide scope of things.
+
+## What do we want to stop doing?
+I want to stop overthinking the task at hand. From going outside of the scope of the project when it is not the appropriate time to do that.
+
+## What do we want to write into our DNA and do forever?
+Concentrate on getting an MVP(mimimum viable product) out before you jump into everything that you "think would be good for the project".
+
+## What do we want to tell our "prior to Bootcamp" self?
+Stay open minded and allow your creativity to flow... but don't sacrifice too much efficiency for that creativivty.
+
+</details>
 <hr>
 <details>
 <summary>Week 2&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/3/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>The path less traveled.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>The struggle is good. (personal)</i></summary>
