@@ -1,15 +1,106 @@
-### Mike's Technical Blog
+### Mike's Blog
 By: Michael Chinn
 
 ---
 ### This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
+<details>
+<summary>Week 3&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/16/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Don't Overthink Things.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>Keep it simple stupid. (personal)</i></summary>
 
-| *8/26/2021* | **Git Over Here!** | *My First Week at Awesome Inc.* |
-|---|---|---|
+## What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?
+
+### HTML
+The role of HTML is to provide a markup system to structure and display content for web page.
+
+```
+<article>
+    <h3 id='title'>Title Text</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</article>
+```
+
+This stucture is the framework upon which the CSS and JavaScript will act upon.
+
+### CSS
+The role of CSS is to apply style to the elements of an HTML document.
+
+```
+:root{
+    --primary-color: rgba(200, 200, 200, .75);
+    --font-family-01: Arial, Helvetica, sans-serif;
+    --font-size-01: 1.5rem;
+}
+
+article{
+    font-family: var(--font-family-01)
+    color: var(--primary-color);
+}
+
+h3{
+    font-size: var(--font-size-01);
+}
+```
+The code block above makes use of storing variables in the ```:root``` element of the DOM. They can then be called by other elements located further down the DOM tree. This makes it so that we can define a value one time and apply it multiple times. If later we want to change, for instance, the primary color all across our site, we simply change the ```--primary-color``` variable's value from ```rgba(123, 75, 200, .75)``` to ```#ffffff``` and the change will be applied globally.
+
+### JavaScript
+The role of JavaScript is to provide functionallity to the elements of an HTML page.
+
+```
+let title = document.getElementById('title');
+title.addEventListener('click', () => {
+    title.textContent("You clicked the title and changed it's content.")
+});
+```
+The HTML, CSS and JavaScript all work together to create the UI/UX or User Interface / User Experience. UI/UX is key to providing your user with not only a useful web page but one that will be tailored for them to, utilize with maximum efficiency as well as being pleasing to their eyes.
+
+## What are some objects that your blog incorporates?
+My blog incorporates sections consisiting of multiple 'Title' and 'Content' elements.
+
+## What are your thoughts on pseudo coding?
+I can tell that pseudo coding will be a valuable tool for me. It will help me to keep focused on my current task because it will provide me with a structure from which I can write my application or web page. 
+
+## What do I want to keep doing?
+I want to keep stiving to learn new things and implement them into my toolkit. I love that through these projects I am learning how to do a very wide scope of things.
+
+## What do I want to stop doing?
+I want to stop overthinking the task at hand. From going outside of the scope of the project when it is not the appropriate time to do that.
+
+## What do I want to write into my DNA and do forever?
+Concentrate on getting an MVP(mimimum viable product) out before you jump into everything that you "think would be good for the project".
+
+## What do we want to tell our "prior to Bootcamp" self?
+Stay open minded and allow your creativity to flow... but don't sacrifice too much efficiency for that creativivty.
+
+</details>
+<hr>
+<details>
+<summary>Week 2&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/3/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>The path less traveled.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>The struggle is good. (personal)</i></summary>
+<br>
+<img alt='The Path Less Traveled' src='./img/path-blog.jpg' width='100%'>
+<hr>
+
+## What is something you wish you could do but currently do not have the coding skills to accomplish?
+
+I **love** retro gaming! From the Atari 2600 to the Sony Playstation 2, I love it all. One thing that I wish that I could do is take a program like [RetroArch](https://www.retroarch.com/) and create an Html front-end for it. I have a sufficient amount skill in Photoshop, HTML5 and CSS3 to do it. Provided I have the time I could create some very nice transitions and tranformations to make it really "pop". The thing that stops me from putting in all of the front-end work is the back-end. 
+
+<img alt="RetroArch" src="https://www.retroarch.com/images/bg.png" width=100%>
+
+I would firstly need to have Retro-Arch installed on a server. Then it would need to be configured to that servers specifications. Next I would need to launch an instance of it for the user and stream the video output of the program to said user. Then I would need to receive streamed controller input from the user and feed it to their instance of the program. Last I would need to save the users progress to the server so they could continue where they left off the next time they instantiate an instance of the program. I don't know how to do any of that... but I would love to learn how.
+
+## What are you struggling with?
+
+Currently I am working on a stretch goal in which I take a markdown file and convert it to HTML using regular expressions. The issue I am currently having is wrapping all of the paragrapgs in `<p>` tags. At the moment it is wrapping everything in `<p>` tags. Admittantly I haven't had much time to address this problem as I have been doing my Sprint work and dealing with life. I am confident that this is just a challenge and not a blocker but if it turns into a blocker I will post a help request in our slack channel.
+
+## How do you solve a problem? What methods do you use to help yourself get unstuck?
+
+Firstly I will consult the instruction for the given task. Then if no resolution is found I will consult the documentation for the function/method/command that I am struggling with. If it is a logic problem I will spend some time thinking about the logic of what I am doing and try to address any logical fallacies that I may be commiting. If that yields nothing I will type a direct question into google and consult sites like [stackoverflow](https://stackoverflow.com/) and [reddit](https://www.reddit.com/). Lastly I will "phone-a-friend" and seek out someone with more expierience to learn what I can from them to resolve my issue.
+
+</details>
+<hr>
+<details>
+<summary>Week 1&nbsp;&nbsp;|&nbsp;&nbsp;<i>8/26/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Git Over Here!</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>My First Week at Awesome Inc. (technical)</i></summary>
 <br>
 <img alt='Git Over Here!' src='img/scorp-octodex-blog-02.jpg' width='100%'>
-
----
+<hr>
 This week I began the [**Awesome Inc Coding Bootcamp**](https://www.awesomeinc.org/bootcamp) and so far I'm very impressed! I learned about an online IDE called [CodeAnywhere](https://codeanywhere.com/), which is very akin to VS Code, save that it is written entirely in javascript (very cool), as well as receiving an extensive refresher on using [GitHub](https://github.com/)!
 
 I've used GitHub in the past when I was a front-end web developer, but never as in-depth as they are teaching me it can be utilized. As well as, I'm learning that the amount of things you can forget in 6 years is shocking.
@@ -199,16 +290,16 @@ Enter your username and password and that's it! You will just repeat this proces
 Next we shall dive into the process of taking the work performed in your dev branch and getting it to the main branch.
 
 ## Execute a Pull Request on Your Content.
- Now that we have pushed our content up to GitHub, we can create a pull request. With the pull request we can "Fetch from and integrate with another repository or a local branch" [*¹⁰*](https://git-scm.com/docs/git-pull). In other words you will pull the content from your dev branch to your main branch. This is done from the GitHub website.
+Now that we have pushed our content up to GitHub, we can create a pull request. With the pull request we can "Fetch from and integrate with another repository or a local branch" [*¹⁰*](https://git-scm.com/docs/git-pull). In other words you will pull the content from your dev branch to your main branch. This is done from the GitHub website.
 
- From here we can click on the compare an pull request button.
+From here we can click on the compare an pull request button.
 
- ![GitHub pull request](img/gitHub-pull.jpg)<p align="center">*GitHub pull request.*</p>
+![GitHub pull request](img/gitHub-pull.jpg)<p align="center">*GitHub pull request.*</p>
 
 ## Merge Your Changes Into the Main Branch.
 
 What's really **Awesome** is that in the past, I never learned to use the GitHub website beyond cloning repos and viewing files. The majority of my experience with it was through a CLI, so it was a real treat to learn the ins and outs of it.
 
 I thank God that I have access to all of the knowledge and experience of the instructors. I can tell that the Bootcamp is going to be a real game changer for me. :)
-
----
+</details>
+<hr>
