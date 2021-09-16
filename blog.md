@@ -1,4 +1,4 @@
-### Mike's Technical Blog
+### Mike's Blog
 By: Michael Chinn
 
 ---
@@ -6,13 +6,65 @@ By: Michael Chinn
 <details>
 <summary>Week 3&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/16/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Don't Overthink Things.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>Keep it simple stupid. (personal)</i></summary>
 
-## What do we want to keep doing?
+## What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?
+
+### HTML
+The role of HTML is to provide a markup system to structure and display content for web page.
+
+```
+<article>
+    <h3 id='title'>Title Text</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</article>
+```
+
+This stucture is the framework upon which the CSS and JavaScript will act upon.
+
+### CSS
+The role of CSS is to apply style to the elements of an HTML document.
+
+```
+:root{
+    --primary-color: rgba(200, 200, 200, .75);
+    --font-family-01: Arial, Helvetica, sans-serif;
+    --font-size-01: 1.5rem;
+}
+
+article{
+    font-family: var(--font-family-01)
+    color: var(--primary-color);
+}
+
+h3{
+    font-size: var(--font-size-01);
+}
+```
+The code block above makes use of storing variables in the ```:root``` element of the DOM. They can then be called by other elements located further down the DOM tree. This makes it so that we can define a value one time and apply it multiple times. If later we want to change, for instance, the primary color all across our site, we simply change the ```--primary-color``` variable's value from ```rgba(123, 75, 200, .75)``` to ```#ffffff``` and the change will be applied globally.
+
+### JavaScript
+The role of JavaScript is to provide functionallity to the elements of an HTML page.
+
+```
+let title = document.getElementById('title');
+title.addEventListener('click', () => {
+    title.textContent("You clicked the title and changed it's content.")
+});
+```
+The HTML, CSS and JavaScript all work together to create the UI/UX or User Interface / User Experience. UI/UX is key to providing your user with not only a useful web page but one that will be tailored for them to, utilize with maximum efficiency as well as being pleasing to their eyes.
+
+## What are some objects that your blog incorporates?
+My blog incorporates sections consisiting of multiple 'Title' and 'Content' elements.
+
+## What are your thoughts on pseudo coding?
+I can tell that pseudo coding will be a valuable tool for me. It will help me to keep focused on my current task because it will provide me with a structure from which I can write my application or web page. 
+
+## What do I want to keep doing?
 I want to keep stiving to learn new things and implement them into my toolkit. I love that through these projects I am learning how to do a very wide scope of things.
 
-## What do we want to stop doing?
+## What do I want to stop doing?
 I want to stop overthinking the task at hand. From going outside of the scope of the project when it is not the appropriate time to do that.
 
-## What do we want to write into our DNA and do forever?
+## What do I want to write into my DNA and do forever?
 Concentrate on getting an MVP(mimimum viable product) out before you jump into everything that you "think would be good for the project".
 
 ## What do we want to tell our "prior to Bootcamp" self?
