@@ -3,6 +3,22 @@ By: Michael Chinn
 
 ---
 ### This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
+<hr>
+<details>
+<summary>Week 4&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/17/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Onboarding Overview.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>What I got out of it. (personal)</i></summary>
+
+## What was helpful during Onboarding working remotely?
+The most helpful thing about working remotely during onboarding was the sense of freedom. Working remotely allows you to work from where ever you happen to be. The advent of cellular tethering and WiFi make it so that you can wor from almost anywhere. 
+
+## What hindered your progress during Onboarding?
+My progress was mostly hindered by me overthinking the task that was at hand. The distractions that come naturally anytime you work from home also played a role.
+
+## How did you overcome challenges during Onboarding?
+Learning pseudo code helped keep me from overthinking things. It allowed me to list out everything that needed to be done so that I could execute said list and get the MVP finished quicker.
+
+</details>
+
+<hr>
 <details>
 <summary>Week 3&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/16/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Don't Overthink Things.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>Keep it simple stupid. (personal)</i></summary>
 
