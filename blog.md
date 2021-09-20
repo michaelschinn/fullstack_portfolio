@@ -4,6 +4,15 @@ By: Michael Chinn
 ---
 ### This is where I will be posting all of my daily / weekly progress and developments while I am attending the **Awesome Inc. Coding Bootcamp**.
 <details>
+<summary>Week 4&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/17/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Onboarding Overview.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>What I got out of it. (personal)</i></summary>
+
+## What was helpful during Onboarding working remotely?
+## What hindered your progress during Onboarding?
+## How did you overcome challenges during Onboarding?
+</details>
+
+<hr>
+<details>
 <summary>Week 3&nbsp;&nbsp;|&nbsp;&nbsp;<i>9/16/2021</i>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Don't Overthink Things.</b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>Keep it simple stupid. (personal)</i></summary>
 
 ## What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?
